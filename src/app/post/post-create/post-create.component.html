@@ -1,0 +1,10 @@
+<mat-card>
+	<mat-form-field>
+		<input matInput type="text" [(ngModel)]="enteredTitle"/>
+	</mat-form-field><br>
+	<mat-form-field>
+		<input matInput type="text" [(ngModel)]="enteredContent"/>
+	</mat-form-field>
+</mat-card>
+<hr>
+<button (click)="addPost()">Submit</button>
